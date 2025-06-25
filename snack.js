@@ -6,6 +6,10 @@ function getInitials(nomeCompleto) {
 
 // ---------------------------------------------------------------------------------------------------------
 
+// (SNACK 2)
+function createSlug(stringa){
+    
+}
 
 
 
