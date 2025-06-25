@@ -8,7 +8,7 @@ function getInitials(nomeCompleto) {
 
 // (SNACK 2)
 function createSlug(stringa){
-    return stringa.toLowerCase();
+    return stringa.toLowerCase().replaceAll(" ", "-");
 }
 
 // ---------------------------------------------------------------------------------------------------------
@@ -22,6 +22,9 @@ function average(numeri) {
     return somma / numeri.length;
 }
 
+// ---------------------------------------------------------------------------------------------------------
+
+//  (SNACK 5)
 
 
 
