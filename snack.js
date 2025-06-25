@@ -53,11 +53,6 @@ function findPostById(posts, id) {
 
 
 
-
-
-
-
-
 module.exports = {
     getInitials,
     createSlug,
