@@ -8,6 +8,9 @@ function getInitials(nomeCompleto) {
 
 // (SNACK 2)
 function createSlug(stringa){
+    if(!stringa) {
+        throw new Error('Titolo non valido');
+    }
     return stringa.toLowerCase().replaceAll(" ", "-");
 }
 
@@ -29,6 +32,8 @@ function isPalindrome(parola) {
     const parolaInversa = parola.split('').reverse().join('');
     return parola === parolaInversa;
 }
+
+//  ---------------------------------------------------------------------------------------------------------
 
 
 
