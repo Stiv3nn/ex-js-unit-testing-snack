@@ -8,8 +8,20 @@ function getInitials(nomeCompleto) {
 
 // (SNACK 2)
 function createSlug(stringa){
-    
+    return stringa.toLowerCase();
 }
+
+// ---------------------------------------------------------------------------------------------------------
+
+//  (SNACK 3)
+function average(numeri) {
+    let somma = 0;
+    numeri.forEach(numero => {
+        somma += numero;
+    });
+    return somma / numeri.length;
+}
+
 
 
 
@@ -23,5 +35,6 @@ function createSlug(stringa){
 
 module.exports = {
     getInitials,
-    createSlug
+    createSlug,
+    average
 };
